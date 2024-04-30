@@ -14,15 +14,10 @@ if(!isNaN(eleitores) && !isNaN(brancos) && !isNaN(nulos) && !isNaN(validos)){
     var totalVotos = brancos + nulos + validos
     var abstencao = eleitores - totalVotos
 
-    console.log()
-    console.log("############### RESULTADO ###############")
-    console.log()
     console.log(validos/eleitores*100 + "% votaram em um candidato.")
     console.log(brancos/eleitores*100 + "% votaram em branco.")
     console.log(nulos/eleitores*100 + "% anularam os votoss.")
     console.log(abstencao/eleitores*100 + "% não votaram.")
-    console.log()
-    console.log("#########################################")
 
 } else console.log("Algum dos valores informados não é númerico. Tente novamente!")
 
