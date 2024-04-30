@@ -1,8 +1,6 @@
 const prompt = require('prompt-sync')(); 
 
 const varList = []
-let soma = 0
-let media = 0
 
 for(let i = 0; i < 3; i++) varList.push(prompt(`Digite o ${(i+1)} ° valor: `))
 
