@@ -24,4 +24,4 @@ media = soma/varList.length
 
 if(media>=6) {
     console.log("PARABÉNS! Você foi aprovado")
-} else console.log("Você foi REPROVADO! Estude mais")
+} else console.log("Você foi REPROVADO! Estude mais") 
